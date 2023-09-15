@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22809602AB43524000E8D3A /* SnapOffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228095F2AB43524000E8D3A /* SnapOffApp.swift */; };
+		F22809622AB43524000E8D3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22809612AB43524000E8D3A /* ContentView.swift */; };
+		F22809642AB43526000E8D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22809632AB43526000E8D3A /* Assets.xcassets */; };
+		F22809672AB43526000E8D3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22809662AB43526000E8D3A /* Preview Assets.xcassets */; };
+		F22809712AB43526000E8D3A /* SnapOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22809702AB43526000E8D3A /* SnapOffTests.swift */; };
+		F228097B2AB43526000E8D3A /* SnapOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228097A2AB43526000E8D3A /* SnapOffUITests.swift */; };
+		F228097D2AB43526000E8D3A /* SnapOffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228097C2AB43526000E8D3A /* SnapOffUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F228096D2AB43526000E8D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22809542AB43524000E8D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F228095B2AB43524000E8D3A;
+			remoteInfo = SnapOff;
+		};
+		F22809772AB43526000E8D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22809542AB43524000E8D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F228095B2AB43524000E8D3A;
+			remoteInfo = SnapOff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F228095C2AB43524000E8D3A /* SnapOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F228095F2AB43524000E8D3A /* SnapOffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapOffApp.swift; sourceTree = "<group>"; };
+		F22809612AB43524000E8D3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F22809632AB43526000E8D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22809662AB43526000E8D3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F228096C2AB43526000E8D3A /* SnapOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22809702AB43526000E8D3A /* SnapOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapOffTests.swift; sourceTree = "<group>"; };
+		F22809762AB43526000E8D3A /* SnapOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F228097A2AB43526000E8D3A /* SnapOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapOffUITests.swift; sourceTree = "<group>"; };
+		F228097C2AB43526000E8D3A /* SnapOffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapOffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22809592AB43524000E8D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22809692AB43526000E8D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22809732AB43526000E8D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22809532AB43524000E8D3A = {
+			isa = PBXGroup;
+			children = (
+				F228095E2AB43524000E8D3A /* SnapOff */,
+				F228096F2AB43526000E8D3A /* SnapOffTests */,
+				F22809792AB43526000E8D3A /* SnapOffUITests */,
+				F228095D2AB43524000E8D3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F228095D2AB43524000E8D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F228095C2AB43524000E8D3A /* SnapOff.app */,
+				F228096C2AB43526000E8D3A /* SnapOffTests.xctest */,
+				F22809762AB43526000E8D3A /* SnapOffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F228095E2AB43524000E8D3A /* SnapOff */ = {
+			isa = PBXGroup;
+			children = (
+				F228095F2AB43524000E8D3A /* SnapOffApp.swift */,
+				F22809612AB43524000E8D3A /* ContentView.swift */,
+				F22809632AB43526000E8D3A /* Assets.xcassets */,
+				F22809652AB43526000E8D3A /* Preview Content */,
+			);
+			path = SnapOff;
+			sourceTree = "<group>";
+		};
+		F22809652AB43526000E8D3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22809662AB43526000E8D3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F228096F2AB43526000E8D3A /* SnapOffTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22809702AB43526000E8D3A /* SnapOffTests.swift */,
+			);
+			path = SnapOffTests;
+			sourceTree = "<group>";
+		};
+		F22809792AB43526000E8D3A /* SnapOffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F228097A2AB43526000E8D3A /* SnapOffUITests.swift */,
+				F228097C2AB43526000E8D3A /* SnapOffUITestsLaunchTests.swift */,
+			);
+			path = SnapOffUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F228095B2AB43524000E8D3A /* SnapOff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22809802AB43526000E8D3A /* Build configuration list for PBXNativeTarget "SnapOff" */;
+			buildPhases = (
+				F22809582AB43524000E8D3A /* Sources */,
+				F22809592AB43524000E8D3A /* Frameworks */,
+				F228095A2AB43524000E8D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapOff;
+			productName = SnapOff;
+			productReference = F228095C2AB43524000E8D3A /* SnapOff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F228096B2AB43526000E8D3A /* SnapOffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22809832AB43526000E8D3A /* Build configuration list for PBXNativeTarget "SnapOffTests" */;
+			buildPhases = (
+				F22809682AB43526000E8D3A /* Sources */,
+				F22809692AB43526000E8D3A /* Frameworks */,
+				F228096A2AB43526000E8D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F228096E2AB43526000E8D3A /* PBXTargetDependency */,
+			);
+			name = SnapOffTests;
+			productName = SnapOffTests;
+			productReference = F228096C2AB43526000E8D3A /* SnapOffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F22809752AB43526000E8D3A /* SnapOffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22809862AB43526000E8D3A /* Build configuration list for PBXNativeTarget "SnapOffUITests" */;
+			buildPhases = (
+				F22809722AB43526000E8D3A /* Sources */,
+				F22809732AB43526000E8D3A /* Frameworks */,
+				F22809742AB43526000E8D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22809782AB43526000E8D3A /* PBXTargetDependency */,
+			);
+			name = SnapOffUITests;
+			productName = SnapOffUITests;
+			productReference = F22809762AB43526000E8D3A /* SnapOffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22809542AB43524000E8D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F228095B2AB43524000E8D3A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F228096B2AB43526000E8D3A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F228095B2AB43524000E8D3A;
+					};
+					F22809752AB43526000E8D3A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F228095B2AB43524000E8D3A;
+					};
+				};
+			};
+			buildConfigurationList = F22809572AB43524000E8D3A /* Build configuration list for PBXProject "SnapOff" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22809532AB43524000E8D3A;
+			productRefGroup = F228095D2AB43524000E8D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F228095B2AB43524000E8D3A /* SnapOff */,
+				F228096B2AB43526000E8D3A /* SnapOffTests */,
+				F22809752AB43526000E8D3A /* SnapOffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F228095A2AB43524000E8D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22809672AB43526000E8D3A /* Preview Assets.xcassets in Resources */,
+				F22809642AB43526000E8D3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F228096A2AB43526000E8D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22809742AB43526000E8D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22809582AB43524000E8D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22809622AB43524000E8D3A /* ContentView.swift in Sources */,
+				F22809602AB43524000E8D3A /* SnapOffApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22809682AB43526000E8D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22809712AB43526000E8D3A /* SnapOffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22809722AB43526000E8D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F228097D2AB43526000E8D3A /* SnapOffUITestsLaunchTests.swift in Sources */,
+				F228097B2AB43526000E8D3A /* SnapOffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F228096E2AB43526000E8D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F228095B2AB43524000E8D3A /* SnapOff */;
+			targetProxy = F228096D2AB43526000E8D3A /* PBXContainerItemProxy */;
+		};
+		F22809782AB43526000E8D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F228095B2AB43524000E8D3A /* SnapOff */;
+			targetProxy = F22809772AB43526000E8D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F228097E2AB43526000E8D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F228097F2AB43526000E8D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22809812AB43526000E8D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L9PBN4KXF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahachoi.SnapOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22809822AB43526000E8D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L9PBN4KXF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahachoi.SnapOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22809842AB43526000E8D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L9PBN4KXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahachoi.SnapOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapOff";
+			};
+			name = Debug;
+		};
+		F22809852AB43526000E8D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L9PBN4KXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahachoi.SnapOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapOff";
+			};
+			name = Release;
+		};
+		F22809872AB43526000E8D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L9PBN4KXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahachoi.SnapOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapOff;
+			};
+			name = Debug;
+		};
+		F22809882AB43526000E8D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L9PBN4KXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahachoi.SnapOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapOff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22809572AB43524000E8D3A /* Build configuration list for PBXProject "SnapOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F228097E2AB43526000E8D3A /* Debug */,
+				F228097F2AB43526000E8D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22809802AB43526000E8D3A /* Build configuration list for PBXNativeTarget "SnapOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22809812AB43526000E8D3A /* Debug */,
+				F22809822AB43526000E8D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22809832AB43526000E8D3A /* Build configuration list for PBXNativeTarget "SnapOffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22809842AB43526000E8D3A /* Debug */,
+				F22809852AB43526000E8D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22809862AB43526000E8D3A /* Build configuration list for PBXNativeTarget "SnapOffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22809872AB43526000E8D3A /* Debug */,
+				F22809882AB43526000E8D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22809542AB43524000E8D3A /* Project object */;
+}
