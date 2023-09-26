@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "person.fill")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Daha is a bitchboy")
+            Text("Dheera is gonna end up at SFU")
         }
         .padding()
     }
